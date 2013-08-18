@@ -28,11 +28,11 @@ namespace TinkerWorX.Silverlight.Input
 {
     public static class GamePad
     {
-        private static Boolean IsWindows { get { return HtmlPage.BrowserInformation.UserAgent.Contains("Windows NT"); } }
-        private static Boolean IsMacintosh { get { return HtmlPage.BrowserInformation.UserAgent.Contains("Macintosh"); } }
+        private static readonly Boolean IsWindows = HtmlPage.BrowserInformation.UserAgent.Contains("Windows NT");
+        private static readonly Boolean IsMacintosh = HtmlPage.BrowserInformation.UserAgent.Contains("Macintosh");
 
-        private static Boolean IsChrome { get { return HtmlPage.BrowserInformation.UserAgent.Contains("Chrome/"); } }
-        private static Boolean IsFirefox { get { return HtmlPage.BrowserInformation.UserAgent.Contains("Firefox/"); } }
+        private static readonly Boolean IsChrome = HtmlPage.BrowserInformation.UserAgent.Contains("Chrome/");
+        private static readonly Boolean IsFirefox = HtmlPage.BrowserInformation.UserAgent.Contains("Firefox/");
 
         public static GamePadState GetState(Int32 index, HtmlWindow window)
         {
