@@ -1,0 +1,7 @@
+<OutOfBrowserSettings ShortName="TinkerWorX.Silverlight.InputSample Application" EnableGPUAcceleration="False" ShowInstallMenuItem="False">
+  <OutOfBrowserSettings.Blurb>TinkerWorX.Silverlight.InputSample Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="TinkerWorX.Silverlight.InputSample Application" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.Icons />
+</OutOfBrowserSettings>
