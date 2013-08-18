@@ -38,7 +38,7 @@ namespace TinkerWorX.Silverlight.Input
         {
             var gamepads = (HtmlPage.Window.Eval("navigator.webkitGamepads || navigator.mozGamepads || navigator.gamepads") as ScriptObject);
             if (gamepads == null)
-                throw new NotSupportedException("This browser does not appear support gamepads. Only the latest dev version of Firefox or Chrome supports gamepads so far.");
+                throw new NotSupportedException("This browser does not appear to support gamepads. Only the latest dev version of Firefox or Chrome supports gamepads so far.");
 
             var gamepadState = new GamePadState(index);
 
