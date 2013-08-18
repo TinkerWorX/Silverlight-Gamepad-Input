@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="GamePad.cs" />
     <Compile Include="GamePadState.cs" />
+    <Compile Include="GamePadSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
